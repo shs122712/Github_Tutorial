@@ -1,6 +1,9 @@
 //test update for github tutorial
 //another modification goes here
 //yet another modification
+
+//modification from visual studio code.
+
 /*
  12-29-2012
  Spark Fun Electronics
@@ -16,7 +19,7 @@
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial2.begin(9600);
   Serial.println("Trimpot read example");
 
   pinMode(A0, INPUT);
